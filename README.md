@@ -1,4 +1,5 @@
 # NettyRpc
+
 ## 使用Netty进行RPC服务器的开发，技术原理简单如下：
 - 定义RPC请求消息、应答消息结构，里面要包括RPC的接口定义模块、包括远程调用的类名、方法名称、参数结构、参数值等信息。
 - 服务端初始化的时候通过容器加载RPC接口定义和RPC接口实现类对象的映射关系，然后等待客户端发起调用请求。
@@ -8,3 +9,5 @@
 
 ## RPC服务器调用的流程图如下：
 ![image](https://github.com/LuckyZXL2016/NettyRpc/blob/master/pic.jpg)
+
+## 基于akka与scala实现一个简单rpc框架，[博客](https://blog.csdn.net/u011254180/article/details/78187398)。
